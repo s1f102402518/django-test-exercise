@@ -32,4 +32,4 @@ def detail(request, task_id):
     context = {
         'task': task,
     }
-    return render(request, 'todo/detail.html')
+    return render(request, 'todo/detail.html', context)
